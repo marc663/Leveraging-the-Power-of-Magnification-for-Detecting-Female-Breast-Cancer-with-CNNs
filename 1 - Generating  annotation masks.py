@@ -16,9 +16,9 @@ import openslide
 
 reader = mir.MultiResolutionImageReader()
 
-slide_path = r'C:\Users\Marc\Documents\Studium\St Andrews\Dissertation\Data\CAMELYON\training\tumor'
-anno_path = r'C:\Users\Marc\Documents\Studium\St Andrews\Dissertation\Data\CAMELYON\training\Lesion annotations'
-mask_path = r'C:\Users\Marc\Documents\Studium\St Andrews\Dissertation\Data\CAMELYON\training\Masks'
+slide_path = r'<<Insert_your_path>>'
+anno_path = r'<<Insert_your_path>>'
+mask_path = r'<<Insert_your_path>>'
 tumor_paths = glob.glob(osp.join(slide_path, '*.tif'))
 tumor_paths.sort()
 anno_tumor_paths = glob.glob(osp.join(anno_path, '*.xml'))
